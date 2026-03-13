@@ -11,9 +11,8 @@ if(result){
 
 document.getElementById("result").innerHTML =
 `
-Name: ${result.Name} <br>
 CNIC: ${result.CNIC} <br>
-Mobile: ${result.Mobile} <br>
+
 Transaction: ${result["Payment Transaction ID"]}
 `;
 
@@ -25,5 +24,6 @@ document.getElementById("result").innerHTML =
 "Record not found";
 
 }
+
 
 }
