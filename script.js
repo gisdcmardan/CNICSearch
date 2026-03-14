@@ -11,6 +11,8 @@ if(result){
 
 document.getElementById("result").innerHTML =
 `
+Name: ${result.Name} <br>
+
 CNIC: ${result.CNIC} <br>
 
 Transaction: ${result["Payment Transaction ID"]}
