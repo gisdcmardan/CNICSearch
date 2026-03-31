@@ -14,6 +14,7 @@ document.getElementById("result").innerHTML =
 Name: ${result.Name} <br>
 
 CNIC: ${result.CNIC} <br>
+CNIC: ${result.CNIC} <br>
 
 Transaction: ${result["Payment Collected"]}
 
