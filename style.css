@@ -16,4 +16,15 @@ padding:10px 20px;
 #result{
 margin-top:20px;
 font-weight:bold;
+  <p>
+  Payment Collected: <span id="status"></span>
+</p>
+
+<script>
+  let value = "No"; // or "Yes"
+
+  let el = document.getElementById("status");
+  el.textContent = value;
+  el.style.color = (value === "Yes") ? "green" : "brown";
+</script>
 }
