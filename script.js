@@ -18,7 +18,13 @@ CNIC: ${result.CNIC} <br>
 Transaction ID: ${result["Payment Transaction ID"]} <br>
 
 Payment Collected: ${result["Payment Collected"]}
+<p>
+  Payment Collected: <span style="color: brown;">No</span>
+</p>
 
+<p>
+  Payment Collected: <span style="color: green;">Yes</span>
+</p>
 
 `;
 
