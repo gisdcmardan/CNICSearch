@@ -19,13 +19,16 @@ Transaction ID: ${result["Payment Transaction ID"]} <br>
 
 Payment Collected: ${result["Payment Collected"]}
 <p>
-  Payment Collected: <span style="color: brown;">No</span>
+  Payment Collected: <span id="Payment Collected"></span>
 </p>
 
-<p>
-  Payment Collected: <span style="color: green;">Yes</span>
-</p>
+<script>
+  let value = "No"; // or "Yes"
 
+  let el = document.getElementById("Payment Collected");
+  el.textContent = value;
+  el.style.color = (value === "Yes") ? "green" : "brown";
+</script>
 `;
 
 }
