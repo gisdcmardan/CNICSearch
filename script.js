@@ -15,9 +15,9 @@ Name: ${result.Name} <br>
 
 CNIC: ${result.CNIC} <br>
 
-Transaction: ${result["Payment Transaction ID"]}<br>
+Transaction: ${result["Payment Transaction ID"]}
 
-Payment Collected: ${result["Payment Collected"]}
+
 `;
 
 }
