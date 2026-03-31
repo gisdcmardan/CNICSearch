@@ -18,17 +18,7 @@ CNIC: ${result.CNIC} <br>
 Transaction ID: ${result["Payment Transaction ID"]} <br>
 
 Payment Collected: ${result["Payment Collected"]}
-<p>
-  Payment Collected: <span id="Payment Collected"></span>
-</p>
 
-<script>
-  let value = "No"; // or "Yes"
-
-  let el = document.getElementById("Payment Collected");
-  el.textContent = value;
-  el.style.color = (value === "Yes") ? "green" : "brown";
-</script>
 `;
 
 }
